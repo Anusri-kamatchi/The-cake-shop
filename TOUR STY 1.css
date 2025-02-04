@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.nav-link{
+    color:azure;
+    font-size: 16px;
+}
+
+.logo{
+    height: 50px;
+    width:100px;
+      } 
+.nav-link{
+    font-weight: bold;
+    font-family:'Lucida Sans';
+}
+
+.navbar {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    
+  }
+  .card-1 {
+    background-image: url("https://img.freepik.com/free-vector/travel-concept-with-landmarks_1057-4873.jpg?w=740&t=st=1697614165~exp=1697614765~hmac=2923d41a11f8906ed42bebbed034fd0aba3010e5a36564416c076f93bd1bd958");
+    background-repeat: 0;
+    text-align: center;
+  
+    height: 100vh;
+
+}
+
+.home {
+    font-size: 25px;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+
+.main-heading {
+    font-family: "Caveat";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    color: darkblue;
+    /*color: #f0f0f0;*/
+    padding: 20px;
+}
+
+
+.para {
+    font-family: "Parisienne";
+    font-size: 30px;
+    color: black;
+}
+
+.para-1 {
+    font-size: 20px;
+    color: black;
+    font-family: "Comic Sans MS";
+    
+        
+        
+        text-shadow: 4px 4px 4px #929292;
+      }
+
+
+
+.para-2 {
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+    margin-left: 100px;
+    font-family: "playfair display";
+}
+
+.marquee {
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.btn-blue{
+color:blue;
+background-color:white;
+border-radius:20px;
+border-color:blue;
+margin: 20px;
+}
+
+.small-carousel {
+    max-width: 400px; /* Set your desired width */
+    margin: 0 auto; /* Center the carousel */
+}
+.small-carousel .carousel-inner img {
+    height: 250px; /* Set your desired height */
+    object-fit: cover; /* Ensure images fit properly */
+}
+.break{
+    background-color:  #046CB8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.destination-heading{
+    color:white;
+    font-size: 40px;
+    font-family:"Caveat" ;
+    text-align: center;
+}
+.car-p{
+    font-size: 16px;
+    color:azure;
+    margin-left:50px;
+    font-family: "roboto";
+}
+.head-d{
+    padding: 5px;
+    font-family: 'jaro';
+}
+
+.car{
+opacity: 100%;
+    }
+.foot{
+    text-align: center;
+    font-size: 14px;
+    color:white;
+}
+.des-head{
+    margin-left: 50px;
+    color:white;
+    font-size: 40px;
+    font-family:"Caveat" ;
+    padding-bottom: 20px;
+}
+.break1{
+    margin-top: 18px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  /* Parallax container styles */
+  .parallax {
+    /* The image used */
+    background-image: url('./plane.jpeg');
+  
+    /* Set a specific height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .parallax2 {
+    /* The image used */
+    background-image: url('./par.jpg');
+  
+    /* Set a specific height */
+    min-height:  500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Non-parallax content styles */
+  .content {
+    height: 400px;
+    background-color: #133986;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .content1 {
+    height: 600px;
+    background-color: #133986;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.testimonial:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial .message {
+    flex: 1;
+}
+
+.testimonial .message h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #333;
+}
+
+.testimonial .message p {
+    margin: 0;
+    font-size: 16px;
+    color: #555;
+}
+.tes-head{
+    margin-left: 50px;
+    color:white;
+    font-size: 40px;
+    font-family:"Caveat" ;
+    padding-bottom: 10px;
+    
+}
+.ac{
+    font-size: 20px;
+    font-family: "roboto"
+    
+}
+.bg-custom {
+      background-color: #133986;
+}
+   
+.social-media {
+        background-color: #133986; /* Background color */
+        padding: 20px;
+        border-radius: 8px;
+}
+    
+.follow-us-icon-container {
+        background-color: whitesmoke;
+        width: 80px;
+        height: 80px;
+        border-radius: 40px; /* Circular shape */
+        margin: 15px;
+        display: inline-block;
+        padding: 22px 16px 14px 22px; /* Adjust inner padding */
+        transition: transform 0.3s ease, background-color 0.3s ease;
+}
+    
+.follow-us-icon-container:hover {
+        transform: scale(1.1); /* Slight zoom effect */
+        background-color: #133986; /* Change background color on hover */
+  }
+    
+.icon {
+        color: 
+        #133986; /* Icon color */
+        font-size: 35px; /* Icon size */
+        transition: color 0.3s ease;
+}
+    
+.follow-us-icon-container:hover .icon {
+        color: white; /* Change icon color on hover */
+}
+   
+.con-head{
+        margin-left: 20px;
+    color:white;
+    font-size: 40px;
+    font-family:"Caveat" ;
+    padding-bottom: 10px;
+    }
+    .cp{
+        font-size: 14px;
+    }
+/* General Carousel Styling */
+.carousel-item img {
+    height: 500px; /* Set a uniform height for images */
+    object-fit: cover; /* Ensures images are well-fitted */
+    border-radius: 10px; /* Rounded edges for images */
+  }
+  
+  /* Caption Styling */
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+    padding: 15px;
+    border-radius: 10px; /* Rounded edges for captions */
+  }
+  
+  .carousel-caption h5 {
+    font-size: 2rem; /* Larger title font */
+    color: #ffffff; /* White text for titles */
+    font-weight: bold; /* Bold titles */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem; /* Smaller font for captions */
+    color: #f0f0f0; /* Light gray text */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Text shadow for readability */
+  }
+  
+  /* Controls Styling */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 3rem; /* Larger navigation icons */
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border-radius: 50%; /* Circular icons */
+    border: 2px solid #ffffff; /* White border for icons */
+  }
+  
+  /* Hover Effect for Controls */
+  .carousel-control-prev-icon:hover,
+  .carousel-control-next-icon:hover {
+    background-color: #ffffff; /* Turn white on hover */
+    border-color: #000000; /* Black border on hover */
+  }
+  
+  /* Add Spacing Around Carousel */
+  .carousel {
+    margin: 20px auto; /* Center the carousel with some spacing */
+    max-width: 80%; /* Keep it responsive */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    border-radius: 10px; /* Rounded corners for the whole carousel */
+  }
+  
+  /* Transition Effects */
+  .carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth transition for slide change */
+  }
+  .about{
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 20px;
+    margin:10px;
+    padding: 10px;
+  }
+  /* Header Section */
+.tour-header {
+    background: linear-gradient(135deg, #133986, #28b7cac7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  .tour-header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .container-a{
+    height:400px;
+  }
+  /* Package Cards */
+  .package-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .package-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .package-card .card-img-top {
+    transition: transform 0.3s ease;
+  }
+  .package-card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  .price {
+    font-weight: bold;
+    color: #ff5722;
+  }
+  
+  /* Flip Card */
+  .card-flip {
+    perspective: 1000px;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+  }
+  .flip-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  .card-flip:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-front, .flip-back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  .flip-back {
+    transform: rotateY(180deg);
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #008db3);
+    transform: scale(1.05);
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+  .card-img-top {
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensure image fills the space without distortion */
+    width: 100%;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .qwe{
+    background-color: #f0f0f0;
+  }
+ 
